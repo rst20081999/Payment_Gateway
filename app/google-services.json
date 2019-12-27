@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "293361024486",
+    "firebase_url": "https://payment-7bf52.firebaseio.com",
+    "project_id": "payment-7bf52",
+    "storage_bucket": "payment-7bf52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293361024486:android:cec712d722da17cec62a27",
+        "android_client_info": {
+          "package_name": "com.example.payment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293361024486-c6ffloo95v2m2kqk28ha77k2ah7cofnm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.payment",
+            "certificate_hash": "38a697f21ec46ec376cde8e3030d59d15ed3103d"
+          }
+        },
+        {
+          "client_id": "293361024486-5k41hna7egn5u58801fsn072cv2ei1lj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.payment",
+            "certificate_hash": "cfa1de03b7a63efde54012094cdbd2b484090fb9"
+          }
+        },
+        {
+          "client_id": "293361024486-htofnarpdpnipbh52idonvqbkqhvh7c6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKBP-nTjDt1PYLuz9Vu_nmUJv1njESIeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293361024486-htofnarpdpnipbh52idonvqbkqhvh7c6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Payment</string>
+    <string name="phone_hint">Enter Your Phone Number</string>
+    <string name="otp">Send OTP</string>
+</resources>
