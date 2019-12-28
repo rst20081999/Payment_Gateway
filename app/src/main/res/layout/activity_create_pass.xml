@@ -15,6 +15,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginStart="52dp"
         android:layout_marginTop="84dp"
+        android:digits="0123456789"
         android:ems="10"
         android:hint="Enter Your Password"
         android:inputType="textPassword"
@@ -29,20 +30,31 @@
         android:layout_alignParentEnd="true"
         android:layout_marginStart="52dp"
         android:layout_marginTop="52dp"
+        android:digits="0123456789"
         android:ems="10"
         android:hint="Confim Your Password"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
-    <TableLayout
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        app:cardBackgroundColor="#f0f"
+        app:cardCornerRadius="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <!--<TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2">
 
-        <TableRow
+       <TableRow
             style="@style/keyboard_row"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -148,5 +160,5 @@
 
         </TableRow>
 
-    </TableLayout>
+    </TableLayout>-->
 </androidx.constraintlayout.widget.ConstraintLayout>
