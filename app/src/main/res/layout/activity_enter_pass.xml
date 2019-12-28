@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -27,9 +27,9 @@
         android:layout_height="75dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="159dp"
-        android:layout_marginBottom="242dp"
-        android:text="Button" />
+        android:text="Button"
+        tools:layout_editor_absoluteX="-11dp"
+        tools:layout_editor_absoluteY="257dp" />
 
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

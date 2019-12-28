@@ -12,7 +12,7 @@ import com.example.payment.pass_activity.CreatePassActivity;
 import com.example.payment.pass_activity.EnterPassActivity;
 
 public class SplashScreen extends Activity {
-    public static int SPLASH_TIME_OUT= 4000;
+    public static int SPLASH_TIME_OUT= 1500;
     String pass;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
