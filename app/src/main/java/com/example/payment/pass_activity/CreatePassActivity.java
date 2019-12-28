@@ -23,9 +23,8 @@ public class CreatePassActivity extends AppCompatActivity {
         setContentView(R.layout.activity_create_pass);
         enterpass=(EditText) findViewById(R.id.editText);
         enterpassconfirm=(EditText) findViewById(R.id.editText2);
-        button=(Button) findViewById(R.id.button);
 
-        button.setOnClickListener(new View.OnClickListener() {
+       button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String text1= enterpass.getText().toString();
