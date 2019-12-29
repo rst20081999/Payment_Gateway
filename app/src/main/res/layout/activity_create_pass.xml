@@ -107,7 +107,6 @@
 
             <ImageView
                 android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
-                android:id="@+id/clear"
                 style="@style/keyboard_Image"
                 />
             <Button
@@ -116,7 +115,6 @@
             <ImageView
                 android:src="@drawable/ic_check_black_24dp"
                 style="@style/keyboard_Image"
-
                 />
 
         </TableRow>
