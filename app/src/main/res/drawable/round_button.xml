@@ -12,11 +12,11 @@
         </item>
         <item android:state_pressed="true">
             <shape
-                android:innerRadiusRatio="2.7"
+                android:innerRadiusRatio="2.5"
                 android:shape="ring"
                 android:thickness="2dp"
                 android:useLevel="false">
-                <solid android:color="@color/colorPrimary"/>
+                <solid android:color="#091972" />
             </shape>
         </item>
 

@@ -16,15 +16,26 @@
         <item name="android:showDividers">beginning|middle|end</item>
     </style>
 
+
     <style name="keyboard_button">
         <item name="android:gravity">center_vertical|center_horizontal</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">75dp</item>
         <item name="android:layout_marginTop">5dp</item>
-        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginRight">8dp</item>
         <item name="android:layout_marginBottom">5dp</item>
-        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
         <item name="android:background">@drawable/round_button</item>
+    </style>
+
+    <style name="keyboard_Image">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
     </style>
 
 
