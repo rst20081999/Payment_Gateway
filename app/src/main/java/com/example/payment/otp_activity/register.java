@@ -1,4 +1,4 @@
-package com.example.payment;
+package com.example.payment.otp_activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,9 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.example.payment.CountryData;
+import com.example.payment.MainActivity;
+import com.example.payment.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class register extends AppCompatActivity {

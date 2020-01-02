@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bbg"
-    tools:context=".OtpActivity">
+    tools:context=".otp_activity.OtpActivity">
 
     <EditText
         android:id="@+id/editTextCode"
