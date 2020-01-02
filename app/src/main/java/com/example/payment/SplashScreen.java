@@ -28,7 +28,7 @@ public class SplashScreen extends Activity {
             @Override
             public void run() {
                 if(pass.equals("")){
-                Intent Homeintent = new Intent(SplashScreen.this, CreatePassActivity.class);
+                Intent Homeintent = new Intent(SplashScreen.this, login_signup_activity.class);
                 startActivity(Homeintent);
                 finish();
                 }
