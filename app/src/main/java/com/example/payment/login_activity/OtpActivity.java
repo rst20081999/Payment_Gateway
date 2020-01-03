@@ -1,4 +1,4 @@
-package com.example.payment.otp_activity;
+package com.example.payment.login_activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

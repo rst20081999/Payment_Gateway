@@ -8,7 +8,7 @@ import android.os.Handler;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.example.payment.pass_activity.CreatePassActivity;
+import com.example.payment.login_activity.login_signup_activity;
 import com.example.payment.pass_activity.EnterPassActivity;
 
 public class SplashScreen extends Activity {
