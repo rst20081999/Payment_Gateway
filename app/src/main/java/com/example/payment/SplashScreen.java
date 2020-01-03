@@ -9,11 +9,12 @@ import android.view.View;
 import android.view.WindowManager;
 
 import com.example.payment.login_activity.login_signup_activity;
+import com.example.payment.pass_activity.CreatePassActivity;
 import com.example.payment.pass_activity.EnterPassActivity;
 
 public class SplashScreen extends Activity {
     public static int SPLASH_TIME_OUT= 1500;
-    String pass;
+    String checklogin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,18 +23,23 @@ public class SplashScreen extends Activity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
         setContentView(R.layout.activity_splash_screen);
             SharedPreferences settings =getSharedPreferences("PREFS",0);
-            pass=settings.getString("password","");
+            checklogin=settings.getString("login","");
 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                if(pass.equals("")){
+                if(checklogin.equals("")){
                 Intent Homeintent = new Intent(SplashScreen.this, login_signup_activity.class);
                 startActivity(Homeintent);
                 finish();
                 }
-                else{
-                    Intent Homeintent = new Intent(SplashScreen.this, EnterPassActivity.class);
+                else if(checklogin.equals("Yes")){
+                    Intent Homeintent = new Intent(SplashScreen.this, CreatePassActivity.class);
+                    startActivity(Homeintent);
+                    finish();
+                }
+                else if(checklogin.equals("Done")){
+                    Intent Homeintent = new Intent(SplashScreen.this, MainActivity.class);
                     startActivity(Homeintent);
                     finish();
                 }
