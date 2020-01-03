@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bbg"
-    tools:context=".login_activity.register">
+    tools:context=".login_activity.regiter_activity">
 
     <LinearLayout
         android:id="@+id/linearLayout"

@@ -14,7 +14,7 @@ import com.example.payment.MainActivity;
 import com.example.payment.R;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class register extends AppCompatActivity {
+public class regiter_activity extends AppCompatActivity {
 
     private Spinner spinner;
     private EditText editText;
@@ -44,7 +44,7 @@ public class register extends AppCompatActivity {
 
                 String phonenumber = "+" + code + number;
 
-                Intent intent = new Intent(register.this, OtpActivity.class);
+                Intent intent = new Intent(regiter_activity.this, OtpActivity.class);
                 intent.putExtra("phonenumber", phonenumber);
                 startActivity(intent);
 

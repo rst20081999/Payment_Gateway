@@ -25,6 +25,14 @@ Button login,signup;
                 finish();
             }
         });
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Homeintent = new Intent(login_signup_activity.this, regiter_activity.class);
+                startActivity(Homeintent);
+                finish();
+            }
+        });
 
     }
 }
