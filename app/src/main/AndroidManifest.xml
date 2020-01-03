@@ -12,7 +12,8 @@
         <activity android:name=".login_activity.login_signup_activity"/>
         <activity android:name=".pass_activity.EnterPassActivity" />
         <activity android:name=".pass_activity.CreatePassActivity" />
-        <activity android:name=".SplashScreen" >
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".login_activity.regiter_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -20,7 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login_activity.regiter_activity"/>
         <activity android:name=".login_activity.OtpActivity" />
         <activity android:name=".MainActivity" />
     </application>
